@@ -4,4 +4,8 @@ const weight = document.querySelector("#peso");
 const calculate = document.querySelector("#calcular");
 const result = document.querySelector("#resultado");
 
-alert(name);
+function imc () {
+    alert('test click');
+}
+
+calculate.addEventListener('click', imc);
