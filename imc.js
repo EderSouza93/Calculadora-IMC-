@@ -8,7 +8,7 @@ function imc () {
     const peso = document.querySelector("#peso").value;
     const resultado = document.querySelector("#resultado");
 
-    if(nome !== "" ) {
+    if(nome !== '' ) {
         alert ('valor preenchido!');
     }
     
