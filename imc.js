@@ -15,5 +15,6 @@ function imc () {
     }
    
 }
+imc()
 
 calculate.addEventListener('click', imc);
