@@ -8,8 +8,8 @@ function imc () {
     const weight = document.querySelector("#peso");
     const result = document.querySelector("#resultado");
 
-    if(nome !== ''){
-        alert ('nome vazio!');
+    if(nome.value !== ''){
+        alert ('valor preenchido!');
     }
    
 }
