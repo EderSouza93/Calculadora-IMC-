@@ -1,11 +1,17 @@
-const name = document.querySelector("#nome");
-const height = document.querySelector("#altura");
-const weight = document.querySelector("#peso");
+
 const calculate = document.querySelector("#calcular");
-const result = document.querySelector("#resultado");
+
 
 function imc () {
-    alert('test click');
+    const name = document.querySelector("#nome");
+    const height = document.querySelector("#altura");
+    const weight = document.querySelector("#peso");
+    const result = document.querySelector("#resultado");
+
+    if(nome !== ''){
+        alert ('nome vazio!');
+    }
+   
 }
 
 calculate.addEventListener('click', imc);
