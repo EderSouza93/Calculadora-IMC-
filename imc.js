@@ -3,16 +3,15 @@ const calcular = document.querySelector("#calcular");
 
 
 function imc () {
-    const nome = document.querySelector("#nome");
-    const altura = document.querySelector("#altura");
-    const peso = document.querySelector("#peso");
+    const nome = document.querySelector("#nome").value
+    const altura = document.querySelector("#altura").value;
+    const peso = document.querySelector("#peso").value;
     const resultado = document.querySelector("#resultado");
 
-    if(nome.value !== "" && altura.value !== "" && peso.value !== "") {
+    if(nome !== "" ) {
         alert ('valor preenchido!');
-    }else {
-        alert('Preencha todos os campos!!');
     }
+    
    
 }
 
